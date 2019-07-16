@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidStudy</string>
+    <string name="media_play">▶</string>
+    <string name="pause">▎▎</string>
+    <string name="stop">⬛</string>
+    <string name="setting">设置</string>
+    <string name="back">返回</string>
+    <string name="fullScreek">◱</string>
+    <string name="smallScreen">◻</string>
+</resources>

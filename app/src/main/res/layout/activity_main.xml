@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <Button
+        android:id="@+id/permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Permission" />-->
+
+    <!--    <Button
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Image" />-->
+
+    <Button
+        android:id="@+id/glideImage"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/whitebutton_selector"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:stateListAnimator="@null"
+        android:text="Image"
+        android:textColor="#747474"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ijkPlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Camera" />-->
+
+    <!--    <Button
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="VideoActivity" />-->
+
+    <!--    <Button
+        android:id="@+id/mediaPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="MediaPlayer" />-->
+
+    <Button
+        android:id="@+id/ijkPlayer"
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="128dp"
+        android:background="@drawable/redbuton_selector"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:stateListAnimator="@null"
+        android:text="Video"
+        android:textColor="#747474"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="154dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/redbuton_selector"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:stateListAnimator="@null"
+        android:text="Day 7"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/glideImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+</android.support.constraint.ConstraintLayout>
